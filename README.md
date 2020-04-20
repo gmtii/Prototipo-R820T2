@@ -18,4 +18,4 @@ Driver del kernel linux del R820T2.
 Datasheet del R820T2.
 Breakout y fuentes del proyecto del R820T2 de Eric Brombaugh https://github.com/emeb/r820t2/
 
-Esteban EA8DGL estebanjbs@gmail.com
+Esteban EA8DGL estebanjbs z at > gmail.com
