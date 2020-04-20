@@ -11,6 +11,7 @@ El proyecto contiene:
 
 + Modo CAT para controlar la frecuencia de sintonía a través de OMNIRIG y el HDSDR por ejemplo.
 
+![Modelo 3D PCB]pcb.PNG
 
 El proyecto está basado en fuentes como:
 
