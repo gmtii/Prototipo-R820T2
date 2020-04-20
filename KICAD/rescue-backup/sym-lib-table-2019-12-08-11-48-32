@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name r820t2_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/r820t2_breakout-rescue.lib)(options "")(descr ""))
+)
