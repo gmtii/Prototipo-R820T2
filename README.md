@@ -21,7 +21,7 @@ El principio de hardware es:
 - La salida del R820T2 se fija en 5 MHz. El tuner hace un proceso de mezcla de la entrada RF, y la frecuencia de sintonía aparecerá en su salida en esos 5 MHz.
 - Se emplea la salida CLKOUT del R820T2, como entrada para un Si5351. Lo ideal es usar un cristal de 25 Mhz en el R820T2.
 - Se programa la salida del Si5351 CLK2 a 20 Mhz, que será la entrada del demodulador QSD. Esto realmente es un 'exceso' pero la idea es experimentar con el Si5351 también. Bastaría con instalar un TCXO de 20Mhz al R820T2 para tener exactamente la frecuencia necesaria de demodulación en el QSD, esto es 5 Mhz. Este TCXO sería precisamente el U1. 
-- La demodulación tiene lugar justo en esos 20MHz/4, esto es, 5 Mhz, justo la salida del R820T2.
+- La conversión tiene lugar justo en esos 20MHz/4, esto es, 5 Mhz, justo la salida del R820T2.
 - La salida IQ es pues en banda base y directamente aplicable a la tarjeta de sonido del PC. Es recomendable ajustar la entrada a 192 Khz para poder demodular WFM correctamente.
 - Con cualquier software que soporte la tarjeta de sonido como entrada, SDR#, o HDSDR, por ejemplo, nos permitirá ver el espectro y demodular la señal resultante.
 
